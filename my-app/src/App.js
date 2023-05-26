@@ -6,13 +6,12 @@ import EventsFunctional from './components/EventsFunctional';
 import EventsClass from './components/EventsClass';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
-
+import NestingComponents from './components/NestingComponents';
 
 function App() {
   return (
     <div className="App">
-      <ConditionalRenderingFunctional connected={false} />
-      <ConditionalRenderingClass />
+      <NestingComponents />
     </div>
   );
 }
