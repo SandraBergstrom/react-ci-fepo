@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingsWithProps'
@@ -20,13 +21,14 @@ import './App.css';
 // import UseStateWithObjects from './components/UseStateWithObjects';
 // import ClassCounter from './components/ClassCounter';
 // import UseEffectCounter from './components/UseEffectCounter';
-import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+// import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import HTTPRequests from './components/HTTPRequests';
 
 
 function App() {
   return (
     <div className="App">
-      <UseEffectCounterContainer />
+      <HTTPRequests />
     </div>
   );
 }
