@@ -22,13 +22,14 @@ import './App.css';
 // import ClassCounter from './components/ClassCounter';
 // import UseEffectCounter from './components/UseEffectCounter';
 // import UseEffectCounterContainer from './components/UseEffectCounterContainer';
-import HTTPRequests from './components/HTTPRequests';
+// import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPPost';
 
 
 function App() {
   return (
     <div className="App">
-      <HTTPRequests />
+      <HTTPPost />
     </div>
   );
 }
